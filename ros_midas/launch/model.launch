@@ -1,0 +1,8 @@
+<launch>
+    <rosparam file="$(find ros_midas)/param/param.yaml" />
+    <node name="depth_estimation_node" 
+            pkg="ros_midas" 
+            type="depth.py"  
+            output="screen">
+    </node>
+</launch>

@@ -1,0 +1,2 @@
+input_image: "/usb_cam/image_raw"
+output_image: "/midas/depth_raw"
