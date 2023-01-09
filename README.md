@@ -13,7 +13,7 @@ The input RGB image stream
 The resultant image after being passed through the detector. <br>
 
 #### Services
-1. startDepth (std_srv/SetBool) <br>
+1. start_depth (std_srv/SetBool) <br>
 Switches on or off the estimator. 
 
 ### Requirements
@@ -24,5 +24,5 @@ pip install numpy opencv-python tflite tensorflow
 
 
 ### Usage
-`roslaunch ros_mobilenet model.launch` <br>
-`rosservice call /is_detect "data: false/true"`  to set the detection off/on
+`roslaunch ros_midas model.launch` <br>
+`rosservice call /start_depth "data: false/true"`  to set the detection off/on
